@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DataTypeFactory_CreateDerivedTypeError" xml:space="preserve">
+    <value>类型工厂错误，创建{0}类型出现异常：{1}</value>
+  </data>
+  <data name="DataTypeFactory_EventAddAccessorError" xml:space="preserve">
+    <value>类型工厂错误，{0}的属性{1}的属性的set访问器异常</value>
+  </data>
+  <data name="DataTypeFactory_EventRemoveAccessorError" xml:space="preserve">
+    <value>类型工厂错误，{0}的属性{1}的属性的set访问器异常</value>
+  </data>
+  <data name="DataTypeFactory_NonePublicMethodNotSupported" xml:space="preserve">
+    <value>类型工厂错误，不支持{0}的未公开的方法{1}</value>
+  </data>
+  <data name="DataTypeFactory_NoSuitableConstructor" xml:space="preserve">
+    <value>类型工厂错误，找不到{0}合适的构造方法</value>
+  </data>
+  <data name="DataTypeFactory_NotSupportedType" xml:space="preserve">
+    <value>类型工厂错误，不支持此类型</value>
+  </data>
+  <data name="DataTypeFactory_PropertyGetAccessorError" xml:space="preserve">
+    <value>类型工厂错误，{0}的属性{1}的get访问器异常</value>
+  </data>
+  <data name="DataTypeFactory_PropertySetAccessorError" xml:space="preserve">
+    <value>类型工厂错误，{0}的属性{1}的属性的set访问器异常</value>
+  </data>
+  <data name="SqlClient_ParseConnectionStringError" xml:space="preserve">
+    <value>SQL客户端错误，无法识别的连接字符串：{0}</value>
+  </data>
+  <data name="SqlClient_RetrieveParameterError" xml:space="preserve">
+    <value>SQL客户端错误，回写参数{0}，索引{1}，值：{2}，出现异常。</value>
+  </data>
+  <data name="SqlClient_ArrayTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持数组类型：{0}</value>
+  </data>
+  <data name="SqlClient_COMObjectNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持COM对象：{0}</value>
+  </data>
+  <data name="SqlClient_CreateDerivedTypeError" xml:space="preserve">
+    <value>SQL客户端错误，创建所需的派生类型{0}出现异常：{1}</value>
+  </data>
+  <data name="SqlClient_CreateDynamicTypeError" xml:space="preserve">
+    <value>SQL客户端错误，创建所需的动态类型出现异常：{0}</value>
+  </data>
+  <data name="SqlClient_EnumTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持枚举对象类型：{0}</value>
+  </data>
+  <data name="SqlClient_NameNotExistsInRecord" xml:space="preserve">
+    <value>SQL客户端错误，记录不存在列{0}</value>
+  </data>
+  <data name="SqlClient_NoDeleteCommand" xml:space="preserve">
+    <value>SQL客户端错误，无法删除实体，没有对应命令</value>
+  </data>
+  <data name="SqlClient_NoSuitableConstructor" xml:space="preserve">
+    <value>SQL客户端错误，没有合适的构造方法</value>
+  </data>
+  <data name="SqlClient_NoInsertCommand" xml:space="preserve">
+    <value>SQL客户端错误，无法插入实体，没有对应命令</value>
+  </data>
+  <data name="SqlClient_NoUpdateCommand" xml:space="preserve">
+    <value>SQL客户端错误，无法更新实体，没有对应命令</value>
+  </data>
+  <data name="SqlClient_SealedTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，类型不能封闭</value>
+  </data>
+  <data name="SqlClient_TypeMustBePublic" xml:space="preserve">
+    <value>SQL客户端错误，必须是公开的类型</value>
+  </data>
+  <data name="SqlClient_TypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持的类型{0}</value>
+  </data>
+  <data name="SqlClient_ValueTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持值类型</value>
+  </data>
+  <data name="SqlClient_CanNotParseConnectionString" xml:space="preserve">
+    <value>SQL客户端错误，无法识别的连接字符串：{0}</value>
+  </data>
+  <data name="SqlClient_BindingTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持当前绑定的对象类型：{0}</value>
+  </data>
+  <data name="SqlClient_NodeTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持当前节点类型</value>
+  </data>
+  <data name="SqlClient_ConvertTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，无法转换指定的类型：{0}</value>
+  </data>
+  <data name="SqlClient_ExpressionArgumentLengthError" xml:space="preserve">
+    <value>SQL客户端错误，LINQ表达式的聚集函数的参数数量只能为2：{0}</value>
+  </data>
+  <data name="SqlClient_ExpressionMemberNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持此LINQ成员表达式：{0}</value>
+  </data>
+  <data name="SqlClient_ExpressionMethodNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持此LINQ方法表达式：{0}</value>
+  </data>
+  <data name="SqlClient_ExpressionTypeNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持此LINQ表达式的类型</value>
+  </data>
+  <data name="SqlClient_QuerySourceNotSupported" xml:space="preserve">
+    <value>SQL客户端错误，MonQ提供的LINQ查询不支持与非MonQ提供的查询分析器进行连接：{0}</value>
+  </data>
+  <data name="SqlClient_NotSupported" xml:space="preserve">
+    <value>SQL客户端错误，不支持此功能</value>
+  </data>
+  <data name="SqlClient_UnknownOrderRule" xml:space="preserve">
+    <value>SQL客户端错误，无法识别的排序规则{0}</value>
+  </data>
+  <data name="SqlClient_CanNotDeleteAsNoIdentityColumn" xml:space="preserve">
+    <value>SQL客户端错误，无法删除{0}，没有找到可以作为更新凭据的列(主键，标识，唯一索引，非空的GUID列)。</value>
+  </data>
+  <data name="SqlClient_CanNotUpdateAsNoColumnForUpdate" xml:space="preserve">
+    <value>SQL客户端错误，无法更新{0}，没有找到可以用于更新的列，请检查是否有足够的映射关系。</value>
+  </data>
+  <data name="SqlClient_CanNotUpdateAsNoIdentityColumn" xml:space="preserve">
+    <value>SQL客户端错误，无法更新{0}，没有找到可以作为更新凭据的列(主键，标识，唯一索引，非空的GUID列)或凭据列的值已经更改。</value>
+  </data>
+  <data name="SqlClient_CanNotReadSchema" xml:space="preserve">
+    <value>SQL客户端错误，无法读取数据集信息</value>
+  </data>
+</root>
